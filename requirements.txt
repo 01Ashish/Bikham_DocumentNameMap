@@ -1,0 +1,12 @@
+flask 
+openai 
+python-dotenv 
+pandas 
+pdf2image 
+pillow 
+requests
+openpyxl
+pytesseract
+google-generativeai
+google-genai
+python-docx
