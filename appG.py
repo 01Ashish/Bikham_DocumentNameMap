@@ -25,7 +25,6 @@ load_dotenv()
 genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 
 EXCEL_PATH = "D:\\Bikham\\Map_Proj\\Doc Types (3).xlsx"  # Replace with your local Excel file path
-pytesseract.pytesseract.tesseract_cmd = r'C:\\Program Files\\Tesseract-OCR\\tesseract.exe'
 
 SYSTEM_PROMPT = """
 You are a Senior Healthcare Document Specialist with 20+ years experience. 
